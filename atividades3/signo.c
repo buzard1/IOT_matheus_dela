@@ -35,11 +35,11 @@ int main()
             if(dia <= 20)
                 printf("Seu signo e Peixes\n");
             else
-                printf("Seu signo e Áries\n");
+                printf("Seu signo e Aries\n");
             break;
         case 4: // abril
             if(dia <= 19)
-                printf("Seu signo e Áries\n");
+                printf("Seu signo e Aries\n");
             else
                 printf("Seu signo e Touro\n");
             break;
@@ -55,49 +55,42 @@ int main()
             else
                 printf("Seu signo é Cancer\n");
             break;
-
-        case 7: // Julho
+        case 7: // julho
             if(dia <= 22)
                 printf("Seu signo e Cancer\n");
             else
                 printf("Seu signo e Leao\n");
             break;
-
-        case 8: // Agosto
+        case 8: // agosto
             if(dia <= 22)
                 printf("Seu signo e Leao\n");
             else
                 printf("Seu signo e Virgem\n");
             break;
-
-        case 9: // Setembro
+        case 9: // setembro
             if(dia <= 22)
                 printf("Seu signo e Virgem\n");
             else
                 printf("Seu signo e Libra\n");
             break;
-
         case 10: // outubro
             if(dia <= 22)
                 printf("Seu signo e Libra\n");
             else
                 printf("Seu signo e Escorpiao\n");
             break;
-
         case 11: // novembro
             if(dia <= 21)
                 printf("Seu signo e Escorpiao\n");
             else
                 printf("Seu signo e Sagitario\n");
             break;
-
         case 12: // dezembro
             if(dia <= 21)
                 printf("Seu signo e Sagitario\n");
             else
                 printf("Seu signo e Capricornio\n");
             break;
-
         default:
             printf("Mes invalido!\n");
     }
