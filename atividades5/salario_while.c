@@ -4,17 +4,19 @@
 
 int main()
 {
+	int ano,anoatual;
 	float salario,porcentual;
-	int i;
-	
 	printf("Desenvolvido por Matheus Dela\n");
-	printf("Digite o seu salario para calcular o aumento salarial entre 2019-2025:");
-	scanf("%f",&salario);
 	porcentual = 1.5;
-	for(i=2020;i<=2025;i++){
+	salario = 1000;
+	ano = 2020;
+	printf("Digite o ano atual:  ");
+	scanf("%d",&anoatual);
+	while(ano<anoatual){
 		salario = salario + salario * porcentual/100;
 		porcentual = porcentual * 2;
+		ano = ano + 1;
 	}
-	printf("O salario atual deste funcionario e %.2f",salario);
-	
+		printf("O salario atual deste funcionario e %.2f",salario);
+
 }
