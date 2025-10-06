@@ -5,17 +5,17 @@ int main() {
 	int M[2][2], R[2][2];
 	int i,j,maior;
 	
-	
-	//Entrada de dados
+	printf("Desenvolvido por Matheus Dela\n");
+	//entrada de dados
 	for(i=0;i<2;i++){
 		for(j=0;j<2;j++){
-			printf("Digite o elemento[%d][%d]: ",i,j);
+			printf("Digite o elemento da linha %d e colun %d: ",i,j);
 			scanf("%d",&M[i][j]);
 		}
 	}
 	
 	
-	//Mostrando a matriz M
+	//mostrando a matriz M
 	printf("\nMatriz M:\n");
 	for(i=0;i<2;i++){
 		for(j=0;j<2;j++){
@@ -24,7 +24,7 @@ int main() {
 		printf("\n");
 	}
 	
-	//Encontrando o maior elemento da matriz M
+	//encontrando o maior elemento da matriz M
 	
 	maior = M[0][0];
 	for(i=0;i<2;i++){
